@@ -1,0 +1,11 @@
+v1 -> without training
+v2 -> train_first -> ./roberta-sentiment
+      train_second -> ./roberta-sentiment-emphatetic
+		it is used on roberta-sentiment
+v3 25_10 first dataset -> ./roberta-sentiment_dataset1
+	second dataset -> ./roberta-sentiment_dataset2
+	      it is used on roberta-sentimend_dataset1
+	in v3 weighting of first dataset is ok, but not in dataset 2
+
+v4 27_11 second dataset -> ./roberta-sentiment_dataset2v2
+	we needed to weight second dataset
